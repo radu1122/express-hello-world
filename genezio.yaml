@@ -1,0 +1,17 @@
+backend:
+    functions:
+        - entry: server.js
+          handler: ""
+          name: express
+          path: ./
+    language:
+        name: js
+    path: .
+    scripts:
+        deploy:
+            - npm install
+        local:
+            - npm install
+name: express-hello-world
+region: us-east-1
+yamlVersion: 2
